@@ -7,7 +7,11 @@
 </head>
 <body>
     <?php
-        $pdo = new PDO('mysql:host=127.0.0.1;dbname=mail_sheet', 'admin', 'Mojeedewe.123');
+        $pdo = new PDO(
+            'mysql:host=nba02whlntki5w2p.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306;dbname=dxm7qjicot42d0cn', 
+            'nrbke2prrwfbmdby', 
+            'wvcss4pu018ic3da'
+        );
         $query = $pdo->prepare('select * from mails');
         $query->execute();
         $addresses = $query->fetchAll(PDO::FETCH_OBJ);
