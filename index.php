@@ -20,20 +20,20 @@
 
 <body>
     <section class="container-fluid custom__px-main custom__py-main bg-main pos-rel">
-        <div class="row">
+        <div class="row index-1">
             <div class="d-md-none mx-auto">
                 <img src="./images/logo.png" alt="Logo" class="logo d-flex mx-auto" />
                 <h1 class="mt-md-5 text-light text-center pt-3">
-                    <span class="d-md-block font-weight-light">Don&apos;t Play Hard,</span>
-                    <span class="font-weight-bold">Play Smart.</span>
+                        <span class="d-md-block font-weight-light animate__animated animate__delay-2s wow animate__flash" data-wow-duration='1s'>Don&apos;t Play Hard,</span>
+                        <span class="font-weight-bold animate__animated animate__delay-4s wow animate__flash" data-wow-duration="1s">Play Smart.</span>
                 </h1>
             </div>
             <main class="col-12 col-md-6 col-lg-6 text-center text-md-left order-2 order-md-1 pl-0">
                 <div class="d-none d-md-block">
                     <img src="./images/logo.png" alt="Logo" class="logo" />
                     <h1 class="mt-md-5 text-light pt-3">
-                        <span class="d-md-block font-weight-light">Don&apos;t Play Hard,</span>
-                        <span class="font-weight-bold">Play Smart.</span>
+                        <span class="d-md-block font-weight-light animate__animated animate__delay-2s wow animate__flash" data-wow-duration='1s'>Don&apos;t Play Hard,</span>
+                        <span class="font-weight-bold animate__animated animate__delay-4s wow animate__flash" data-wow-duration="1s">Play Smart.</span>
                     </h1>
                 </div>
                 <div>
@@ -43,10 +43,14 @@
                         formation and ensure 90% winning chance. <br><br> Would you like to get
                         notified when the app is ready?
                     </p>
-                    <form class="form-row">
-                        <div class="col-12 col-md-9"><input type="text" class="form-control px-3 px-lg-5"
-                                placeholder="Your Email Address"></div>
-                        <div class="col-5 col-md-3 my-2 my-md-0 mx-auto"><button class="btn btn-primary btn-block font-weight-bold">SUBMIT</button>
+                    <form class="form-row index-1" method="POST" action="success.php">
+                        <div class="col-12 col-md-9">
+                            <input type="email" name="email" class="form-control px-3 px-lg-5" placeholder="Your Email Address" required>
+                        </div>
+                        <div class="col-5 col-md-3 my-2 my-md-0 mx-auto">
+                            <button class="btn btn-primary btn-block font-weight-bold" type="submit">
+                                SUBMIT
+                            </button>
                         </div>
                     </form>
                 </div>
@@ -55,32 +59,73 @@
                 <img src="./images/phone.png" alt="" class="img-fluid w-100 wow animate__zoomIn" data-wow-duration="2s">
             </aside>
         </div>
-        <section class="bgs">
-            <h1></h1>
+        <section class="bgs d-flex flex-column justify-content-between bg-ligh index-0">
+            <div class="d-flex">
+                <div class="d-flex flex-column align-items-center box inf">
+                    <div class="box-lg"></div>
+                    <div class="box-sm mt-2"></div>
+                </div>
+                <div class="d-flex flex-column align-items-center box inf">
+                    <div class="box-lg"></div>
+                    <div class="box-sm mt-2"></div>
+                </div>
+                <div class="d-flex flex-column align-items-center box inf">
+                    <div class="box-lg"></div>
+                    <div class="box-sm mt-2"></div>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="d-flex flex-column align-items-center box inf">
+                    <div class="box-lg"></div>
+                    <div class="box-sm mt-2"></div>
+                </div>
+                <div class="d-flex flex-column align-items-center box inf">
+                    <div class="box-lg"></div>
+                    <div class="box-sm mt-2"></div>
+                </div>
+                <div class="d-flex flex-column align-items-center box inf">
+                    <div class="box-lg"></div>
+                    <div class="box-sm mt-2"></div>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="d-flex flex-column align-items-center box inf">
+                    <div class="box-lg"></div>
+                    <div class="box-sm mt-2"></div>
+                </div>
+                <div class="d-flex flex-column align-items-center box inf">
+                    <div class="box-lg"></div>
+                    <div class="box-sm mt-2"></div>
+                </div>
+                <div class="d-flex flex-column align-items-center box inf">
+                    <div class="box-lg"></div>
+                    <div class="box-sm mt-2"></div>
+                </div>
+            </div>
         </section>
     </section>
     <section class="container-fluid custom__px-main mt-rev">
         <div class="row features py-md-4 py-lg-5">
-            <section class="col-12 col-md-4 my-3 my-md-0 px-5 text-center">
+            <section class="col-12 col-md-4 my-3 my-md-0 px-5 px-md-2 text-center wow animate__flipInY" data-wow-duration="1s">
                 <img src="./images/analyze.png" alt="" class="d-block mx-auto">
                 <p class="font-weight-bold my-2">Analyze</p>
-                <div class="small">
+                <p class="small">
                     Studies first 10 minutes <br> of a match
-                </div>
+                </p>
             </section>
-            <section class="col-12 col-md-4 my-3 my-md-0 px-5 text-center">
+            <section class="col-12 col-md-4 my-3 my-md-0 px-5 px-md-2 text-center wow animate__flipInY" data-wow-duration="1s">
                 <img src="./images/detect.png" alt="" class="d-block mx-auto">
                 <p class="font-weight-bold my-2">Detect</p>
-                <div class="small">
+                <p class="small">
                     Find Opposition team’s <br>strategy and wickness
-                </div>
+                </p>
             </section>
-            <section class="col-12 col-md-4 my-3 my-md-0 px-5 text-center">
+            <section class="col-12 col-md-4 my-3 my-md-0 px-5 px-md-2 text-center wow animate__flipInY" data-wow-duration="1s">
                 <img src="./images/solution.png" alt="" class="d-block mx-auto">
                 <p class="font-weight-bold my-2">Solution</p>
-                <div class="small">
+                <p class="small">
                     Suggest tactics and <br>formation to win
-                </div>
+                </p>
             </section>
         </div>
     </section>
