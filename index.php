@@ -36,7 +36,7 @@
                         <span class="font-weight-bold animate__animated animate__delay-4s wow animate__flash" data-wow-duration="1s">Play Smart.</span>
                     </h1>
                 </div>
-                <div>
+                <div class="mt-4 mt-md-0 pt-2 pt-md-0">
                     <p class="mt-4 text-lg-light pr-lg-5 mr-lg-5">
                         We are building an app that studies the first 10 minutes of a match,
                         analyze the opposition team's strategy and weaknesses to switch
@@ -55,8 +55,17 @@
                     </form>
                 </div>
             </main>
-            <aside class="col-8 offset-2 col-md-6 offset-md-0 col-lg-6 col-xl-5 offset-xl-1 pl-md-5 order-1 order-md-2 mt-4 mt-md-5 mt-lg-0">
-                <img src="./images/phone.png" alt="" class="img-fluid w-100 wow animate__zoomIn" data-wow-duration="2s">
+            <aside class="col-8 offset-2 col-md-6 offset-md-0 col-lg-6 col-xl-5 offset-xl-1 justify-content-center pl-5 order-1 order-md-2 mt-4 mt-md-5 mt-lg-0 phone pos-rel">
+                <div class="d-flex wow animate__fadeInDown" data-wow-duration="1s">
+                    <div class="pos-rel">
+                        <video autoplay loop muted class="front">
+                            <source src="./images/gif.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <img src="./images/frame.png" class="off" alt="">
+                    </div>
+                </div>
+                <img src="./images/back.png" alt="" class="back animate__animated wow animate__fadeInUp animate__delay-1s" data-wow-duration="1s">
             </aside>
         </div>
         <section class="bgs d-flex flex-column justify-content-between bg-ligh index-0">

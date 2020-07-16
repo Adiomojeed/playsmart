@@ -130,7 +130,34 @@ p {
 .inf {
     opacity: 0;
     animation: inf 1.5s infinite alternate;
+}
 
+.off {
+    position: absolute;
+    left: calc(-5px + (-15 + 5) * ((100vw - 320px) / (1600 - 320)));
+    z-index: 2;
+    height: inherit;
+    border-radius: 10px;
+    width: 110%;
+    height: 0%;
+}
+
+.phone img, .phone video {
+    height: calc(200px + (500 - 200) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.front {
+    z-index: 1;
+    position: relative;
+    border-radius: calc(15px + (30 - 15) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: calc(80px + (220 - 80) * ((100vw - 320px) / (1600 - 320)));
+    margin-top: calc(30px + (80 - 30) * ((100vw - 320px) / (1600 - 320)));
+    z-index: 0;
 }
 
 @keyframes inf {

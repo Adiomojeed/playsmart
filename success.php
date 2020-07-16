@@ -26,11 +26,11 @@
         //mysql://b01b62b4ecc010:92c14022@us-cdbr-east-02.cleardb.com/heroku_2377c8790f1f79c?reconnect=true
         $email = $_POST['email'];
         $pdo = new PDO(
-            'mysql:host=us-cdbr-east-02.cleardb.com;dbname=heroku_2377c8790f1f79c', 
-            'b01b62b4ecc010', 
-            '92c14022'
+            'mysql:host=xxxxxxxx;dbname=xxxxxxxxxx', 
+            'xxxxxxxx', 
+            'xxxxxxxx'
         );
-        $pdo->exec("INSERT INTO email (email) VALUES ('$email')");
+        $pdo->exec("INSERT INTO mails (email) VALUES ('$email')");
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     ?>
     <section class="container-fluid custom__py-main custom__px-main bg-main pos-rel">

@@ -8,9 +8,9 @@
 <body>
     <?php
         $pdo = new PDO(
-            'mysql:host=localhost:3306;dbname=id14330667_email', 
-            'admin', 
-            'Mojeedewe.123'
+            'mysql:host=xxxxxxxx;dbname=xxxxxxxxxx', 
+            'xxxxxxxx', 
+            'xxxxxxxx'
         );
         $query = $pdo->prepare('select * from mails');
         $query->execute();
