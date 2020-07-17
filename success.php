@@ -6,13 +6,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="icon" href="./images/icon.png">
+    <link rel="icon" href="./assets/images/icon.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <script>
         new WOW().init();
     </script>
@@ -35,10 +35,10 @@
     ?>
     <section class="container-fluid custom__py-main custom__px-main bg-main pos-rel">
         <div class="row align-items-center justify-content-center index-1">
-            <div class="col-12"><img src="./images/logo.png" alt="Logo" class="logo" /></div>
+            <div class="col-12"><img src="./assets/images/logo.png" alt="Logo" class="logo" /></div>
             <main class="col-12 col-md-8 text-center justify-content-center text-md-left order-2 order-md-1 pl-0 mt-lg-2 pt-5 d-trans">
                 <div>
-                    <img src="./images/shield-w.png" alt="shield" class="d-block mx-auto mt-5 pt-5 wow animate__flipInY" data-wow-duration="2s">
+                    <img src="./assets/images/shield-w.png" alt="shield" class="d-block mx-auto mt-5 pt-5 wow animate__flipInY" data-wow-duration="2s">
                     <h1 class="text-center text-light mt-4 mt-lg-5 mb-3 wow animate__fadeInLeft" data-wow-duration="2s">Thank <span class="font-weight-bold">You!!!</span></h1>
                     <p class="text-center text-light wow animate__fadeInRight" data-wow-duration="2s">
                         Notification will be sent to your email when <span class="font-weight-bold">Play</span>Smart is ready.
@@ -95,7 +95,7 @@
         <div class="row vh-10 justify-content-center">
             <main class="col-12 col-md-6 col-lg-6 text-center text-md-left order-2 order-md-1 pl-0 mt-rev-sm">
                 <div>
-                    <img src="./images/shield-b.png" alt="shield" class="d-block mx-auto wow animate__flipInY" data-wow-duration="2s">
+                    <img src="./assets/images/shield-b.png" alt="shield" class="d-block mx-auto wow animate__flipInY" data-wow-duration="2s">
                     <h1 class="text-center mt-3 wow animate__fadeInLeft" data-wow-duration="1s">Thank <span class="font-weight-bold">You!!!</span></h1>
                     <p class="text-center px-5 wow animate__fadeInRight" data-wow-duration="1s">
                         Notification will be sent to your email <br> when <span class="font-weight-bold">Play</span>Smart is ready.
